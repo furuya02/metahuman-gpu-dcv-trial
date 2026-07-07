@@ -13,6 +13,8 @@ The everyday setup work (downloading/installing Unreal and MetaHuman assets) nee
 
 ## Architecture
 
+![Architecture](docs/architecture.png)
+
 ```
 [Local PC: DCV client/browser] ──NICE DCV (8443 TCP/UDP, your IP only)──▶ EC2 (Windows Server 2022)
 [iPhone: Live Link Face]       ──(same network)──────────────────────────▶  default t3.large (no GPU / setup)
